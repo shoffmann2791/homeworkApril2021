@@ -13,3 +13,10 @@ let exItem2 =nums.shift();
 console.log(exItem2);
 console.log(nums);
 // use push and unshift to add the variables back to the array in numerical order, 0-6
+
+let pushReturn =
+
+nums.push(exItem2, exItem);
+console.log(nums);
+nums.unshift(dropItem, dropItem2);
+console.log(nums);

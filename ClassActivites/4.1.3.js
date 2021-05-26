@@ -9,3 +9,4 @@ console.log(document.querySelectorAll(".class-week").classList.add("week-1"));
 // select the img element and add a src attribute
 document.querySelector("img").src =
 // change the font color of the h1 element
+document.querySelector("h1").style.color = "blue";

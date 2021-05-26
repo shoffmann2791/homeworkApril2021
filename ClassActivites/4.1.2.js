@@ -6,4 +6,3 @@ document.querySelector("html").lastElementChild;
 document.getElementsByTagName("body").children;
 // select the next sibling of the h2 node
 document.querySelector("h2").nextElementSibling;
-// select the parent element of the h1 node

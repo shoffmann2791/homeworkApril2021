@@ -20,6 +20,6 @@ function greet(name) {
       
   
   // pass each "regular" function into getAndShowMessage as a callback function
-  console.log(getNameAndShowMessage(greet("michael",greet()));
+console.log(getNameAndShowMessage(greet("michael",greet()));
 console.log(getNameAndShowMessage("Hayden", welcome));
 console.log(getNameAndShowMessage)("elaine", informAboutSale);

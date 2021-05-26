@@ -19,9 +19,24 @@ testFunction(72);
 // change the function to set default values for the parameters
 testFunction(72);
 // again, invoke the function and pass in only one number
+function testFunctionAgain(test1, test2, ...test3){
+    console.log (test1);
+    console.log(test2);
+    console.log(test3);
+    return test1 + test2;
 
+    }
 // Rest Operator
 // add a rest operator to the function's parameters
+
+function testFunctionAgain(test1, test2, ...test3){
+    console.log (test1);
+    console.log(test2);
+    console.log(test3);
+    return test1 + test2;
+
+    }
 // add a line to the function's body to print the value of the rest operator
 
 // again, invoke the function and pass in more than two numbers
+testFunctionAgain(5, 20, 38, 12, 18, 73, 0);
